@@ -7,7 +7,7 @@ create table contact (
 contactid INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 firstname VARCHAR(255) NOT NULL,
 lastname VARCHAR(255) NOT NULL,
-email VARCHAR(255) NOT NULL,
+email VARCHAR(255) NOT NULL
 );
 insert into contact (firstname, lastname, email) values ('myname', 'surname', 'myemail@company.com');
 */	
